@@ -51,63 +51,26 @@ export const theme: ThemeConfig = [
   }
 ]
 
-//export const head: HeadConfig = {}
-
-//export const header: HeaderConfig = {
-//  nav: [
-//    {
-//      text: 'Get Started',
-//      link: '/hello-world'
-//   },
-//    {
-//      text: 'Elements',
-//      link: '/hello-world/elements'
-//    }
-//  ]
-//}
+export const head: HeadConfig = {}
 
 export const header: HeaderConfig = {
-  search: {
-    provider: 'ecosia'
-  },
   nav: [
     {
       text: 'About',
-      link: '/about'
-    },
+      link: '/hello-world'
+   },
     {
       text: 'Projects',
-      link: '/projects'
+      link: '/hello-world/elements'
     },
-    // {
-    //   text: 'Notes',
-    //   link: '/notes'
-    // },
-    //{
-    //  text: 'Friends',
-    //  link: '/friends'
-    //},
     {
-      text: 'etc',
-      children: [
-        {
-          text: 'Book Notes',
-          link: 'https://godpen.bearblog.dev'
-        },
-        //{
-        //  text: 'Daily Notes',
-        //  link: 'https://x.seviche.cc'
-        //   
-        //}
-        {
-          text: 'Friends',
-          link: '/friends'
-        },
-      ]
-    }
+      text: 'Book Notes',
+      link: 'https://godpen.bearblog.dev'
+    },
   ]
 }
 
+    
 export const footer: FooterConfig = {
   nav: [
     {
