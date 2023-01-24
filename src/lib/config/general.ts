@@ -54,6 +54,9 @@ export const theme: ThemeConfig = [
 export const head: HeadConfig = {}
 
 export const header: HeaderConfig = {
+  search: {
+    provider: 'duckduckgo'
+  },
   nav: [
     {
       text: 'About',
