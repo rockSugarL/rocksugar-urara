@@ -60,7 +60,7 @@ export const header: HeaderConfig = {
   nav: [
     {
       text: 'About',
-      link: '/about'
+      link: '/hello-world'
    },
    {
       text: 'Projects',
