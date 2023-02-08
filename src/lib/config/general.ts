@@ -66,10 +66,6 @@ export const header: HeaderConfig = {
       text: 'Projects',
       link: '/projects'
    },
-   {
-      text: 'Book Notes',
-      link: 'https://godpen.bearblog.dev'
-   }
   ]
 }
 
